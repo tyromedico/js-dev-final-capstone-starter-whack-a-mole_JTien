@@ -195,7 +195,7 @@ In the previous user story, you implemented some of the basic functions necessar
 
 In this user story, you are going to implement the game flow so that a player can start a game and the moles hide and appear randomly using the functions that you created in the previous story.
 
-#### 1. `toggleVisibility(hole)`
+#### 1. `toggleVisibility(hole)` XXXXXXX
 
 In the *Selecting elements on the DOM* lesson in the _JavaScript and the DOM_ module, you learned about the `classList()` method. Take some time to review the [classList MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) before you proceed with implementing this function. Previously, you used `classList.add()` and `classList.remove()` to add and remove classes to HTML elements. In this case, you are asked to use `classList.toggle()` so that it adds or removes the `show` class. In the `styles.css` file, notice how the `show` class is used so that the mole class appears in the respective hole:
 
@@ -209,7 +209,7 @@ function toggleVisibility(hole){
 
 **Hint:**  If you get stuck, study the  [classList MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) and see how `classList.toggle()` is used in [ this REPL](https://replit.com/@thinkful/chooseHole#script.js).
 
-#### 2. `showAndHide(hole)`
+#### 2. `showAndHide(hole)` XXXXXXXXXXX
 
 The purpose of this function is to show and hide the mole given a delay time and the hole where the mole is hidden. You'll need to call the `toggleVisibility()` function that you just created. First, call the function so that it adds the `show` class. Then, inside the `setTimeout()`, the `toggleVisibility()` function will also need to be called so that it removes the `show` class. You will also need to set the delay that is given as a parameter. 
 
@@ -228,7 +228,7 @@ function showAndHide(hole, delay){
 
 **Hint:** Study [this REPL](https://replit.com/@thinkful/showAndHide#script.js) if you get stuck. The REPL has a very similar example that implements the mechanism that you want to implement here. Recall that `setTimeout()` is explained in the _JavaScript and the DOM: Events_ lesson. You can also consult the [`setTimeout()` MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout).
 
-#### 3. `showUp()`
+#### 3. `showUp()` XXXXXXXXXXX
 
 This function simply calls the `showAndHide()` function with a specific delay and hole. The function needs to call `setDelay()` and `chooseHole()` to call `showAndHide(hole, delay)`.
 
@@ -244,7 +244,7 @@ function showUp() {
 
 **Commit your code**: If you've made notable progress, now might be a good time to make a commit to secure your progress.
 
-#### 4. `gameOver()`
+#### 4. `gameOver()` XXXXXXX
 
 The purpose of this function is simply to determine if the game should continue or stop. The game continues if there is still time (`if(time > 0)`). If there is still time, then `showUp()` needs to be called again so that it sets a different delay and a different hole. If there is no more time, then it should call the `stopGame()` function. The function also needs to return the `timeoutId` if the game continues or the string `"game stopped"` if the game is over. You don't need to worry about the time right now. The time will be addressed in US-05.
 
@@ -260,7 +260,7 @@ function gameOver() {
 ```
 **Hint:** Study [this REPL](https://replit.com/@thinkful/showAndHide#script.js) if you get stuck. The REPL has a very similar example that implements the mechanism that you want to implement here.
 
-#### 5. `startGame()`
+#### 5. `startGame()`XXXXXXXX
 
 This is the function that starts the game when the `start` button is clicked.
 
