@@ -78,7 +78,7 @@ Good luck - you can do this!
 
 The game needs to have the basic structure for it to function. The game will need a name, some basic board controls such as a start button, a score, and a timer display. The game needs nine holes and moles defined.
 
-#### 1. Add a title to the game, surrounded by `h1` tags.
+#### 1. Add a title to the game, surrounded by `h1` tags. XXXX
 
 You need to name your game. The default is `whack-a-mole`, but you can choose another name depending on the theme that you want to set for the game. Some variations could be `whack-a-virus`, `catch-a-cat`, or something else. Surround your title in `h1` tags. Besides naming your game, you will also need to assign an `id` attribute to the `h1` tag and set the `id` attribute's value to a string of `"title"` for the test to pass. It should look something like this:
 
@@ -86,7 +86,7 @@ You need to name your game. The default is `whack-a-mole`, but you can choose an
 <h1 id="title"> My game!! </h1>
 ```
 
-#### 2. Add nine holes and moles to the grid in `index.html`
+#### 2. Add nine holes and moles to the grid in `index.html` XXXXXXXXXXXX
 
 The `index.html` file  has only two holes defined. The game should have up to nine holes defined. Add the missing holes and moles to the HTML file.
 
@@ -103,7 +103,7 @@ The `index.html` file  has only two holes defined. The game should have up to ni
 
 ```
 
-#### 3. Define a `start` button in `index.html`
+#### 3. Define a `start` button in `index.html` XXXXXXXXXXXXXX
 
 The game needs a `start` button so that a player can start playing the game. Use a `button` tag with `start` set as the `id`.
 
@@ -111,7 +111,7 @@ The game needs a `start` button so that a player can start playing the game. Use
 <button id="start">start</button>
 ```
 
-#### 4. Use `querySelector()` or `querySelectorAll()` to access the elements in `index.js`
+#### 4. Use `querySelector()` or `querySelectorAll()` to access the elements in `index.js` XXXXXXXXx
 
 Great! You have defined most of the HTML structure! Now you need to make sure that you can access the elements in JavaScript. Go to `src/index.js` and take some time to analyze the query selectors. You should see something like this:
 
