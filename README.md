@@ -141,7 +141,7 @@ Use `querySelector()` to get the missing `score` and `timer` elements.
 
 Good job! You have the HTML of your game all set up. Now, it's time to implement some of the game functionality in JavaScript. The moles (or other chosen entity) need to appear and disappear randomly.
 
-#### 1. `randomInteger(min, max)`
+#### 1. `randomInteger(min, max)` XXX
 
 The function takes two values as parameters to limit the range of the number to be generated. For example, calling `randomInteger(0,10)` will return a random integer between 0 and 10. Calling `randomInteger(10,200)` will return a random integer between 10 and 200.
 
@@ -149,7 +149,7 @@ Study [this example](https://replit.com/@thinkful/randomInteger#index.js) and im
  
 _**Note:** This function is already implemented for you. You only need to study the REPL and use the code provided._
 
-#### 2. `setDelay(difficulty)`
+#### 2. `setDelay(difficulty)`XXXXXXXXXXXXXXXX
 Implement the `setDelay(difficulty)` function. The moles need to appear and disappear at a certain interval of time.  The function takes a `difficulty` parameter that can have three values: `easy`, `normal`, or `hard`. If difficulty is `easy`, then the function returns a time delay of 1,500 milliseconds (or 1.5 seconds). If the difficulty is set to `normal`, it should return 1,000. If difficulty is set to `hard`, it should return a `randomInteger` between 600 and 1,200.
 
 ```js
@@ -159,7 +159,7 @@ setDelay("hard") //> Returns 856 (returns a random number between 600 and 1200).
 ```
 **Hint:** Study the _Control flow_ lesson if you need to review `if`/`else` statements.
 
-#### 3. `chooseHole(holes)`
+#### 3. `chooseHole(holes)` XXXXXXXXXX
  Implement the `chooseHole(holes)` function. This function should select a random hole from the list of holes that you defined. When you call the function, you should make sure that it doesn't return the last hole.
  
  ```js
