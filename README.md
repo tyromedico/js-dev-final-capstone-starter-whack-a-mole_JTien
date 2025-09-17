@@ -351,7 +351,7 @@ function setEventListeners(){
 
 The game needs a timer that informs the player how many seconds they have left. You'll need to use `setInterval()` to create a timer. If you need to, go back and review the `setInterval()` function in the _JavaScript and the DOM: Events_ lesson.  You may also use the functions provided in [this REPL](https://replit.com/@thinkful/timer#script.js).
 
-#### 1. `startTimer()`
+#### 1. `startTimer()` XXXXXXX
 
 Implement the `startTimer()` function in the game. 
 
@@ -364,7 +364,7 @@ function startTimer() {
 
 _**Note:** This is the same function that's provided in [this REPL](https://replit.com/@thinkful/timer#script.js)._
 
-#### 2. `updateTimer()`
+#### 2. `updateTimer()` XXXX
 
 Implement the `updateTimer()` function in the game:
 
