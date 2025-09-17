@@ -232,6 +232,7 @@ function whack(event) {
 * Adds the 'click' event listeners to the moles. See the instructions
 * for an example on how to set event listeners using a for loop.
 */
+const img = document.getElementById("myImage");
 function setEventListeners(){
   moles.forEach(
     mole => mole.addEventListener('click', whack)
