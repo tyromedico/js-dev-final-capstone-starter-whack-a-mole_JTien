@@ -5,6 +5,30 @@ const startButton = document.querySelector('#start');
 const score = document.querySelector('#score'); // Use querySelector() to get the score element
 const timerDisplay = document.querySelector('#timer'); // use querySelector() to get the timer element.
 
+//music
+
+const audioHit = new Audio("https://github.com/gabrielsanchez/erddiagram/blob/main/hit.mp3?raw=true");
+const song = new Audio("https://github.com/gabrielsanchez/erddiagram/blob/main/molesong.mp3?raw=true");
+const whackSound = document.getElementById('whackSound');
+
+function playAudio(audioObject) {
+  audioObject.play();
+}
+
+function loopAudio(audioObject) {
+  audioObject.loop = true;
+  playAudio(audioObject);
+}
+
+function stopAudio(audioObject) {
+  audioObject.pause();
+}
+
+function play(){
+  playAudio(song);
+}
+//
+
 let time = 0;
 let timer;
 let lastHole = 0;
@@ -223,6 +247,7 @@ function startTimer() {
 *
 */
 function whack(event) {
+  whackSound.play();
   console.log("Bonk!")
   updateScore();
 }
@@ -284,7 +309,7 @@ function stopGame(){
 function startGame(){
   clearScore();
   stopGame();   //optional
-  setDuration(11);
+  setDuration(26);
   setEventListeners();
   startTimer();
   showUp();

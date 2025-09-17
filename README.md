@@ -395,11 +395,11 @@ You have a functional game, and now it's time to enhance it with your creativity
 
 Read the following suggestions and implement whatever you want. There are no unit tests for this user story, but originality will be considered in the rubric.
 
-#### 1. Change the look of the game.
+#### 1. Change the look of the game. XXXXX
 
 The game looks great, but it looks similar to the games of some  other students in the program. Hack the `styles.css` file and make some changes to make your game look unique. You can change the background, the sprites, the fonts, and the general appearance of the game. Why not use zombies or monsters instead of moles? Study  and experiment with `styles.css` and see what you can come up with.
 
-#### 2. Audio FX and music
+#### 2. Audio FX and music XXXXX
 
 A game without sound FX and music can be pretty boring. Here is a [REPL](https://replit.com/@thinkful/audiofx-and-music#script.js) with an example of how to add audio to your game. Feel free to use your own audio files.
 
