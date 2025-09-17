@@ -288,7 +288,7 @@ _**Note:** This function is provided to you. You only need to uncomment the code
 
 The moles now show and hide, but nothing happens when a user clicks on them. In this user story, you are tasked to implement the functions that handle the clicking events and scoring.
 
-#### 1. `updateScore()`
+#### 1. `updateScore()` xxxxx
 
 This function increments the `points` global variable and updates the scoreboard.  Use the `points` global variable that is already defined and increment it by 1. After the `points` variable is incremented, proceed by updating the scoreboard that you defined in the `index.html` file. To update the scoreboard, you can use `score.textContent = points;`. Use the comments in the following function as a guide for your implementation.
 
@@ -301,7 +301,7 @@ function updateScore() {
 
 ```
 
-#### 2. `clearScore()`
+#### 2. `clearScore()` xxxxxxxx
 
 This function is similar to `updateScore()`, but instead of incrementing the scoreboard, it resets it to 0. This is necessary if the game finishes and the player wants to play again.
 
@@ -313,7 +313,7 @@ function clearScore() {
 }
 ```
 
-#### 3. `whack(event)`
+#### 3. `whack(event)` XXXX
 
 This is an event handler that simply calls the `updateScore()` function to increment the score if a mole has been clicked by the player.
 
@@ -325,7 +325,7 @@ function whack(event) {
 ```
 **Hint:** Try to implement the solution by yourself and then look at the suggested function implementation in this [REPL](https://replit.com/@thinkful/addEventListeners#script.js). If you don't remember event handlers, you can review the _Event listeners_ lesson from the _JavaScript and the DOM_ module.
 
-#### 4. `setEventListeners(moles)`
+#### 4. `setEventListeners(moles)` XXXX
 
 You defined an event handler in the previous step. Now, it's time to set the event listeners so that the event handler gets called when a player clicks on a mole.
 
